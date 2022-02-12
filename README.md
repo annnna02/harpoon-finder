@@ -61,3 +61,4 @@ local dirs = require('harpoon-finder.ui').get_search_dirs()
 require('telescope.builtin').find_files({ search_dirs = dirs })
 require('telescope.builtin').live_grep({ search_dirs = dirs })
 ```
+\n
